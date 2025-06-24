@@ -219,7 +219,7 @@ If no such pages are found, set "found" to false and provide an empty list for "
 
             # Parse the response
             result = json.loads(response.text)
-            logger.info(f"LLM Response: {result}")
+            #logger.info(f"LLM Response: {result}")
 
             if result.get('found', False):
                 page_numbers = result.get('page_numbers', [])

@@ -1,0 +1,1441 @@
+[
+    {
+        "machinery_systems": [
+            {
+                "system_applied": "Main Diesel Engine Type & No.: 6S50MC(Mk6) x 1",
+                "survey_items": [
+                    {
+                        "code": "311001",
+                        "survey_item_description": "NO.1 CYL. ASSY.\n(COVER/LINER/PIS\nTON) OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "311002",
+                        "survey_item_description": "NO.2 CYL. ASSY.\n(COVER/LINER/PIS\nTON) OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "311003",
+                        "survey_item_description": "NO.3 CYL. ASSY.\n(COVER/LINER/PIS\nTON) OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "311004",
+                        "survey_item_description": "NO.4 CYL. ASSY.\n(COVER/LINER/PIS\nTON) OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "311005",
+                        "survey_item_description": "NO.5 CYL. ASSY.\n(COVER/LINER/PIS\nTON) OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "311006",
+                        "survey_item_description": "NO.6 CYL. ASSY.\n(COVER/LINER/PIS\nTON) OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "313001",
+                        "survey_item_description": "NO.1 CROSSHEAD\nPIN & BEARING OF\nM/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "313002",
+                        "survey_item_description": "NO.2 CROSSHEAD\nPIN & BEARING OF\nM/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "313003",
+                        "survey_item_description": "NO.3 CROSSHEAD\nPIN & BEARING OF\nM/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "313004",
+                        "survey_item_description": "NO.4 CROSSHEAD\nPIN & BEARING OF\nM/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "313005",
+                        "survey_item_description": "NO.5 CROSSHEAD\nPIN & BEARING OF\nM/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "313006",
+                        "survey_item_description": "NO.6 CROSSHEAD\nPIN & BEARING OF\nM/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "314101",
+                        "survey_item_description": "NO.1 CRANKPIN &\nBEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "314102",
+                        "survey_item_description": "NO.2 CRANKPIN &\nBEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "314103",
+                        "survey_item_description": "NO.3 CRANKPIN &\nBEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "machinery_systems": [
+            {
+                "system_applied": "CMS",
+                "survey_items": [
+                    {
+                        "code": "314104",
+                        "survey_item_description": "NO.4 CRANKPIN & BEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "314105",
+                        "survey_item_description": "NO.5 CRANKPIN & BEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "314106",
+                        "survey_item_description": "NO.6 CRANKPIN & BEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "314201",
+                        "survey_item_description": "NO.1 MAIN JOURNAL & BEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "314202",
+                        "survey_item_description": "NO.2 MAIN JOURNAL & BEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "314203",
+                        "survey_item_description": "NO.3 MAIN JOURNAL & BEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "314204",
+                        "survey_item_description": "NO.4 MAIN JOURNAL & BEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "314205",
+                        "survey_item_description": "NO.5 MAIN JOURNAL & BEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "314206",
+                        "survey_item_description": "NO.6 MAIN JOURNAL & BEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "314207",
+                        "survey_item_description": "NO.7 MAIN JOURNAL & BEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "314208",
+                        "survey_item_description": "NO.8 MAIN JOURNAL & BEARING OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "317000",
+                        "survey_item_description": "CAM SHAFT DRIVING GEAR OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "3B1000",
+                        "survey_item_description": "TURBO CHARGER OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "3B4000",
+                        "survey_item_description": "AIR INTER COOLER OF M/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "3B6001",
+                        "survey_item_description": "NO.1 AUX. BLOWER OF M/E",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "3B6002",
+                        "survey_item_description": "NO.2 AUX. BLOWER OF M/E",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "machinery_systems": [
+            {
+                "system_applied": "CMS",
+                "survey_items": [
+                    {
+                        "code": "341000",
+                        "survey_item_description": "THRUST SHAFT & BEARING",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "26 Feb 2022",
+                        "ex": "E",
+                        "next_date": "30 Nov 2026",
+                        "exam_by_ce": "Nov 2021",
+                        "postponed": null
+                    },
+                    {
+                        "code": "342100",
+                        "survey_item_description": "INTERMEDIATE SHAFT",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "342500",
+                        "survey_item_description": "INTERMEDIATE SHAFT BEARING",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "X",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "610010",
+                        "survey_item_description": "NO.1 MAIN GENERATOR DIESEL ENGINE",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "31 Dec 2026",
+                        "exam_by_ce": "Dec 2021",
+                        "postponed": null
+                    },
+                    {
+                        "code": "610020",
+                        "survey_item_description": "NO.2 MAIN GENERATOR DIESEL ENGINE",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "Feb 2022",
+                        "postponed": null
+                    },
+                    {
+                        "code": "610030",
+                        "survey_item_description": "NO.3 MAIN GENERATOR DIESEL ENGINE",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "31 Jan 2027",
+                        "exam_by_ce": "Jan 2022",
+                        "postponed": null
+                    },
+                    {
+                        "code": "670000",
+                        "survey_item_description": "EMERGENCY GENERATOR DIESEL ENGINE",
+                        "system": "CMS",
+                        "ap": 1,
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "Feb 2022",
+                        "postponed": null
+                    }
+                ]
+            },
+            {
+                "system_applied": "Pump, Compressor & Fan",
+                "survey_items": [
+                    {
+                        "code": "5WE200",
+                        "survey_item_description": "FIRE, BILGE & BALLAST PUMP",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "30 Nov 2026",
+                        "exam_by_ce": "Nov 2021",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5WH100",
+                        "survey_item_description": "FIRE & G.S. PUMP",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "5WJ100",
+                        "survey_item_description": "SEA WATER SERVICE PUMP",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "3EA110",
+                        "survey_item_description": "NO.1 MAIN COOL. S.W. PUMP",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "3EA120",
+                        "survey_item_description": "NO.2 MAIN COOL. S.W. PUMP",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "02 Feb 2024",
+                        "ex": "E",
+                        "next_date": "31 Aug 2028",
+                        "exam_by_ce": "Aug 2023",
+                        "postponed": null
+                    },
+                    {
+                        "code": "3EC110",
+                        "survey_item_description": "NO.1 MAIN COOL. F.W. PUMP",
+                        "system": "CMS",
+                        "ap": 1,
+                        "status": null,
+                        "last_date": "06 Feb 2021",
+                        "ex": null,
+                        "next_date": "20 Apr 2026",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "3EC120",
+                        "survey_item_description": "NO.2 MAIN COOL. F.W. PUMP",
+                        "system": "CMS",
+                        "ap": 1,
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "4TD110",
+                        "survey_item_description": "NO.1 BOILER FEED WATER PUMP",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "31 Dec 2026",
+                        "exam_by_ce": "Dec 2021",
+                        "postponed": null
+                    },
+                    {
+                        "code": "4TD120",
+                        "survey_item_description": "NO.2 BOILER FEED WATER PUMP",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "4TD510",
+                        "survey_item_description": "NO.1 BOILER FEED WATER CIRC. PUMP",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "31 Jan 2027",
+                        "exam_by_ce": "Jan 2022",
+                        "postponed": null
+                    },
+                    {
+                        "code": "4TD520",
+                        "survey_item_description": "NO.2 BOILER FEED WATER CIRC. PUMP",
+                        "system": "CMS",
+                        "ap": 2,
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "machinery_systems": [
+            {
+                "system_applied": "CMS",
+                "survey_items": [
+                    {
+                        "code": null,
+                        "survey_item_description": "F.O. TRANSFER PUMP",
+                        "system": "3EG400",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "31 Dec 2026",
+                        "exam_by_ce": "Dec 2021",
+                        "postponed": null
+                    },
+                    {
+                        "code": null,
+                        "survey_item_description": "D.O. TRANSFER PUMP",
+                        "system": "4EF400",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "06 Feb 2021",
+                        "ex": null,
+                        "next_date": "20 Apr 2026",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": null,
+                        "survey_item_description": "NO.1 F.O. CIRCULATING PUMP FOR M/E",
+                        "system": "3EG510",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "06 Feb 2021",
+                        "ex": null,
+                        "next_date": "20 Apr 2026",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": null,
+                        "survey_item_description": "NO.2 F.O. CIRCULATING PUMP FOR M/E",
+                        "system": "3EG520",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "02 Feb 2024",
+                        "ex": "E",
+                        "next_date": "30 Apr 2027",
+                        "exam_by_ce": "Apr 2022",
+                        "postponed": null
+                    },
+                    {
+                        "code": null,
+                        "survey_item_description": "NO.1 F.O. SUPPLY PUMP FOR M/E",
+                        "system": "3EG310",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "31 Dec 2026",
+                        "exam_by_ce": "Dec 2021",
+                        "postponed": null
+                    },
+                    {
+                        "code": null,
+                        "survey_item_description": "NO.2 F.O. SUPPLY PUMP FOR M/E",
+                        "system": "3EG320",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "06 Feb 2021",
+                        "ex": null,
+                        "next_date": "20 Apr 2026",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": null,
+                        "survey_item_description": "NO.1 BOILER BURNING PUMP",
+                        "system": "4TH110",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": null,
+                        "survey_item_description": "NO.2 BOILER BURNING PUMP",
+                        "system": "4TH120",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "30 Nov 2026",
+                        "exam_by_ce": "Nov 2021",
+                        "postponed": null
+                    },
+                    {
+                        "code": null,
+                        "survey_item_description": "NO.1 MAIN L.O. PUMP (S)",
+                        "system": "3EL110",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "Feb 2022",
+                        "postponed": null
+                    },
+                    {
+                        "code": null,
+                        "survey_item_description": "NO.2 MAIN L.O. PUMP (P)",
+                        "system": "3EL120",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "06 Feb 2021",
+                        "ex": null,
+                        "next_date": "20 Apr 2026",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": null,
+                        "survey_item_description": "NO.1 MAIN AIR COMPRESSOR",
+                        "system": "3ERD10",
+                        "ap": "2",
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "31 Jan 2027",
+                        "exam_by_ce": "Jan 2022",
+                        "postponed": null
+                    },
+                    {
+                        "code": null,
+                        "survey_item_description": "NO.2 MAIN AIR COMPRESSOR",
+                        "system": "3ERD20",
+                        "ap": "2",
+                        "status": null,
+                        "last_date": "06 Feb 2021",
+                        "ex": null,
+                        "next_date": "20 Apr 2026",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": null,
+                        "survey_item_description": "DECK USE AIR COMPRESSOR",
+                        "system": "5WPD00",
+                        "ap": "2",
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "Feb 2022",
+                        "postponed": null
+                    }
+                ]
+            },
+            {
+                "system_applied": "Heat Exchanger, Independent Tank & Air Reservoir",
+                "survey_items": [
+                    {
+                        "code": "3ECC00",
+                        "survey_item_description": "MAIN COOL. F.W. COOLER",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "3GCB00",
+                        "survey_item_description": "JACKET COOL. F.W. HEATER",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "4ECC10",
+                        "survey_item_description": "NO.1 F.W. COOLER FOR G/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "4ECC20",
+                        "survey_item_description": "NO.2 F.W. COOLER FOR G/E",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "3UCC00",
+                        "survey_item_description": "F.W. COOLER FOR DECK USE AIR COMPRESSOR",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "Feb 2022",
+                        "postponed": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "machinery_systems": [
+            {
+                "system_applied": "CMS",
+                "survey_items": [
+                    {
+                        "code": "4MQC00",
+                        "survey_item_description": "DRAIN COOLER",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "3EGB10",
+                        "survey_item_description": "NO.1 F.O. HEATER FOR M/E",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "3EGB20",
+                        "survey_item_description": "NO.2 F.O. HEATER FOR M/E",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "30 Nov 2026",
+                        "exam_by_ce": "Nov 2021",
+                        "postponed": null
+                    },
+                    {
+                        "code": "40JB10",
+                        "survey_item_description": "NO.1 F.O. HEATER FOR PURIFIER",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "40JB20",
+                        "survey_item_description": "NO.2 F.O. HEATER FOR PURIFIER",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "4THB10",
+                        "survey_item_description": "NO.1 F.O. HEATER FOR BOILER",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "4THB20",
+                        "survey_item_description": "NO.2 F.O. HEATER FOR BOILER",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "3ELC00",
+                        "survey_item_description": "MAIN L.O. COOLER",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": null,
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "40LB10",
+                        "survey_item_description": "NO.1 PURIFIER L.O. HEATER",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "06 Feb 2021",
+                        "ex": null,
+                        "next_date": "20 Apr 2026",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "40LB20",
+                        "survey_item_description": "NO.2 PURIFIER L.O. HEATER",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "06 Feb 2021",
+                        "ex": null,
+                        "next_date": "20 Apr 2026",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "3ER910",
+                        "survey_item_description": "NO.1 MAIN AIR RESERVOIR",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": null,
+                        "last_date": "02 Feb 2024",
+                        "ex": "E",
+                        "next_date": "31 Mar 2028",
+                        "exam_by_ce": "Mar 2023",
+                        "postponed": null
+                    },
+                    {
+                        "code": "3ER920",
+                        "survey_item_description": "NO.2 MAIN AIR RESERVOIR",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": null,
+                        "last_date": "02 Feb 2024",
+                        "ex": "E",
+                        "next_date": "31 Mar 2028",
+                        "exam_by_ce": "Mar 2023",
+                        "postponed": null
+                    },
+                    {
+                        "code": "4ER900",
+                        "survey_item_description": "AUX. AIR RESERVOIR",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": null,
+                        "last_date": "02 Feb 2024",
+                        "ex": "E",
+                        "next_date": "31 Dec 2028",
+                        "exam_by_ce": "Dec 2023",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5WP900",
+                        "survey_item_description": "SERVICE AIR RESERVOIR",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": null,
+                        "last_date": "02 Feb 2024",
+                        "ex": "E",
+                        "next_date": "31 Dec 2028",
+                        "exam_by_ce": "Dec 2023",
+                        "postponed": null
+                    }
+                ]
+            },
+            {
+                "system_applied": "Deck Machinery",
+                "survey_items": [
+                    {
+                        "code": "5WVR10",
+                        "survey_item_description": "NO.1 HYDR. PUMP OF STEERING GEAR (S)",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": null,
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "5WVR20",
+                        "survey_item_description": "NO.2 HYDR. PUMP OF STEERING GEAR (P)",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": null,
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "5YJ110",
+                        "survey_item_description": "NO.1 HYDR. PUMP FOR WINDLASS, MOOR.WINCH",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": null,
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    },
+                    {
+                        "code": "5YJ120",
+                        "survey_item_description": "NO.2 HYDR. PUMP FOR WINDLASS, MOOR.WINCH",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": null,
+                        "last_date": "25 Feb 2022",
+                        "ex": null,
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": null,
+                        "postponed": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "machinery_systems": [
+            {
+                "system_applied": "CMS",
+                "survey_items": [
+                    {
+                        "code": "5YLU10",
+                        "survey_item_description": "NO.1 WINDLASS(HYDRAULIC) (S)",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "5YLU20",
+                        "survey_item_description": "NO.2 WINDLASS(HYDRAULIC) (P)",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "5YMU10",
+                        "survey_item_description": "NO.1 MOORING WINCH(HYDRAULIC)",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "5YMU20",
+                        "survey_item_description": "NO.2 MOORING WINCH(HYDRAULIC)",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "5YMR10",
+                        "survey_item_description": "NO.1 HYDRAUILIC PUMP OF MOORING WINCH",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": null,
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "5YMR20",
+                        "survey_item_description": "NO.2 HYDRAUILIC PUMP OF MOORING WINCH",
+                        "system": "CMS",
+                        "ap": "1",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": null,
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    }
+                ]
+            },
+            {
+                "system_applied": "Auxiliary. Machinery for Tanker",
+                "survey_items": [
+                    {
+                        "code": "5WS110",
+                        "survey_item_description": "NO.1 BALLAST PUMP IN PUMP ROOM",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "31 Jan 2027",
+                        "exam_by_ce": "Jan 2022",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "5WS120",
+                        "survey_item_description": "NO.2 BALLAST PUMP IN PUMP ROOM",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "31 Jan 2027",
+                        "exam_by_ce": "Jan 2022",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "5XQ110",
+                        "survey_item_description": "NO.1 TANK CLEANING PUMP IN PUMP ROOM",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "02 Apr 2025",
+                        "ex": "X",
+                        "next_date": "30 Apr 2030",
+                        "exam_by_ce": "--",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "5XQ120",
+                        "survey_item_description": "NO.2 TANK CLEANING PUMP IN PUMP ROOM",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "31 Jan 2027",
+                        "exam_by_ce": "Jan 2022",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "5XWC01",
+                        "survey_item_description": "CARGO PUMP (C-A) FOR NO.1 CARGO TANK (P)",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "Feb 2022",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "5XWC02",
+                        "survey_item_description": "CARGO PUMP(C-A) FOR NO.1 CARGO TANK (S)",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "Feb 2022",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "5XWC03",
+                        "survey_item_description": "CARGO PUMP (C-A) FOR NO.2 CARGO TANK (P)",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "Feb 2022",
+                        "postponed": "--"
+                    },
+                    {
+                        "code": "5XWC04",
+                        "survey_item_description": "CARGO PUMP(C-A) FOR NO.2 CARGO TANK (S)",
+                        "system": "CMS",
+                        "ap": "2",
+                        "status": "--",
+                        "last_date": "25 Feb 2022",
+                        "ex": "E",
+                        "next_date": "28 Feb 2027",
+                        "exam_by_ce": "Feb 2022",
+                        "postponed": "--"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "machinery_systems": [
+            {
+                "system_applied": "CMS",
+                "survey_items": [
+                    {
+                        "code": "5XWC05",
+                        "survey_item_description": "CARGO PUMP (C-A) FOR NO.3 CARGO TANK (P)",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "02 Apr 2025",
+                        "last_date": "X",
+                        "ex": "30 Apr 2030",
+                        "next_date": "--",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5XWC06",
+                        "survey_item_description": "CARGO PUMP (C-A) FOR NO.3 CARGO TANK (S)",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "02 Apr 2025",
+                        "last_date": "X",
+                        "ex": "30 Apr 2030",
+                        "next_date": "--",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5XWC07",
+                        "survey_item_description": "CARGO PUMP(C-A) FOR NO.4 CARGO TANK (P)",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "25 Feb 2022",
+                        "last_date": "E",
+                        "ex": "28 Feb 2027",
+                        "next_date": "Feb 2022",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5XWC08",
+                        "survey_item_description": "CARGO PUMP(C-A) FOR NO.4 CARGO TANK (S)",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "25 Feb 2022",
+                        "last_date": "E",
+                        "ex": "28 Feb 2027",
+                        "next_date": "Feb 2022",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5XWC09",
+                        "survey_item_description": "CARGO PUMP(C-A) FOR NO.5 CARGO TANK (P)",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "25 Feb 2022",
+                        "last_date": "E",
+                        "ex": "28 Feb 2027",
+                        "next_date": "Feb 2022",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5XWC10",
+                        "survey_item_description": "CARGO PUMP (C-A) FOR NO.5 CARGO TANK (S)",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "25 Feb 2022",
+                        "last_date": "E",
+                        "ex": "28 Feb 2027",
+                        "next_date": "Feb 2022",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5XWC11",
+                        "survey_item_description": "CARGO PUMP (C-A) FOR NO.6 CARGO TANK (P)",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "25 Feb 2022",
+                        "last_date": "E",
+                        "ex": "28 Feb 2027",
+                        "next_date": "Feb 2022",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5XWC12",
+                        "survey_item_description": "CARGO PUMP (C-A) FOR NO.6 CARGO TANK (S)",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "25 Feb 2022",
+                        "last_date": "E",
+                        "ex": "28 Feb 2027",
+                        "next_date": "Feb 2022",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5XWC13",
+                        "survey_item_description": "CARGO PUMP(C-A) FOR NO.7 CARGO TANK (P)",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "02 Apr 2025",
+                        "last_date": "X",
+                        "ex": "30 Apr 2030",
+                        "next_date": "--",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5XWC14",
+                        "survey_item_description": "CARGO PUMP (C-A) FOR NO.7 CARGO TANK (S)",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "02 Apr 2025",
+                        "last_date": "X",
+                        "ex": "30 Apr 2030",
+                        "next_date": "--",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5XWC15",
+                        "survey_item_description": "CARGO PUMP(C-A) FOR SLOP TANK (P)",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "25 Feb 2022",
+                        "last_date": "E",
+                        "ex": "28 Feb 2027",
+                        "next_date": "Feb 2022",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5XWC16",
+                        "survey_item_description": "CARGO PUMP(C-A) FOR SLOP TANK (S)",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "25 Feb 2022",
+                        "last_date": "E",
+                        "ex": "28 Feb 2027",
+                        "next_date": "Feb 2022",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5XRB10",
+                        "survey_item_description": "NO.1 TANK CLEANING HEATER",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "02 Apr 2025",
+                        "last_date": "X",
+                        "ex": "30 Apr 2030",
+                        "next_date": "--",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    },
+                    {
+                        "code": "5XRB20",
+                        "survey_item_description": "NO.2 TANK CLEANING HEATER",
+                        "system": "2",
+                        "ap": "--",
+                        "status": "02 Apr 2025",
+                        "last_date": "X",
+                        "ex": "30 Apr 2030",
+                        "next_date": "--",
+                        "exam_by_ce": "--",
+                        "postponed": null
+                    }
+                ]
+            }
+        ]
+    }
+]
