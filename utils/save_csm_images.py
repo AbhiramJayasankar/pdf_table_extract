@@ -1,4 +1,4 @@
-from csm_module.code import CSMPageExtractor
+from utils.csm_page_extractor import CSMPageExtractor
 import os
 import json
 from dotenv import load_dotenv
@@ -12,9 +12,9 @@ def extract_csm_images(pdf_file: str, output_dir: str):
         pdf_file (str): Path to the PDF file.
         output_dir (str): Directory to save extracted images.
     """
-    api_key = os.environ.get("GOOGLE_API_KEY_2")
+    api_key = os.environ.get("GOOGLE_API_KEY")
     if not api_key:
-        raise ValueError("GOOGLE_API_KEY_2 is not set in the environment variables.")
+        raise ValueError("GOOGLE_API_KEY is not set in the environment variables.")
 
     extractor = CSMPageExtractor(api_key=api_key)
 

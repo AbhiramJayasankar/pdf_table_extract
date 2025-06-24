@@ -2,7 +2,7 @@ import os
 import json
 from contextgem import Document, DocumentLLM, Image, image_to_base64
 from dotenv import load_dotenv
-from schema.bao_min import planned_machinery_survey_concept
+from schema.planned_machinery_survey_schema import planned_machinery_survey_concept
 
 # Load environment variables from a .env file
 load_dotenv()
@@ -74,7 +74,7 @@ def main():
     # --- Configuration ---
     input_root_dir = "images"
     output_root_dir = "extracted"
-    google_api_key = os.getenv("GOOGLE_API_KEY_2")
+    google_api_key = os.getenv("GOOGLE_API_KEY")
 
     if not google_api_key:
         print("Error: GOOGLE_API_KEY not found in environment variables.")
