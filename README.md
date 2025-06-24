@@ -1,7 +1,3 @@
-Here's your content in **raw Markdown format**—no code blocks, ready to copy and paste into any `.md` file, GitHub README, or Markdown editor:
-
----
-
 # PDF Table Extraction for Maritime Surveys
 
 **GitHub Repository:** [https://github.com/AbhiramJayasankar/pdf\_table\_extract](https://github.com/AbhiramJayasankar/pdf_table_extract)
@@ -16,11 +12,9 @@ This project provides a complete, automated pipeline for extracting structured d
   - [Table of Contents](#table-of-contents)
   - [Project Workflow](#project-workflow)
   - [Directory Structure](#directory-structure)
-  - [Prerequisites](#prerequisites)
   - [Setup and Configuration](#setup-and-configuration)
   - [How to Run the Pipeline](#how-to-run-the-pipeline)
   - [Script and Module Descriptions](#script-and-module-descriptions)
-  - [Customization](#customization)
 
 ---
 
@@ -69,20 +63,6 @@ Here is the accurate structure of the project:
 * **.gitignore**: Specifies files and directories to be ignored by Git.
 * **requirements.txt**: A list of all required Python packages for the project.
 * **s3\_link\_to\_json\_pipeline.py**: The main script that orchestrates the entire workflow from URL to final JSON.
-
----
-
-## Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-* **Python 3.8+**
-* **Pip** (Python's package installer)
-* **Poppler**: A PDF rendering library required for `pdf2image`.
-
-  * **macOS (via Homebrew):** `brew install poppler`
-  * **Windows:** Download the latest version, extract it, and add the `bin/` directory to your system's PATH.
-  * **Linux (Debian/Ubuntu):** `sudo apt-get update && sudo apt-get install -y poppler-utils`
 
 ---
 
@@ -144,19 +124,5 @@ The script will log its progress in the console, from downloading the PDF to sav
 
 * **schema/planned\_machinery\_survey\_schema.py**: Defines the exact data structure (`JsonObjectConcept`) that the VLM should follow when extracting information from the images. This ensures the output is consistent, clean, and well-organized.
 
----
-
-## Customization
-
-This pipeline is highly customizable for different document types and data structures.
-
-* **Different Data Structures:**
-  To extract different fields or change the final JSON organization, simply modify the `structure` dictionary within the `planned_machinery_survey_concept` in `schema/planned_machinery_survey_schema.py`.
-
-* **Different Document Types:**
-  If you need to identify different sections in your PDFs (e.g., "Safety Certificates" instead of "Planned Machinery Survey"), update the prompt in the `identify_csm_pages` method within the `utils/csm_page_extractor.py` file to include the new keywords and titles to look for.
-
-* **Different Input Sources:**
-  The main pipeline currently takes a single URL. You can easily modify the `if __name__ == '__main__':` block in `s3_link_to_json_pipeline.py` to read from a list of URLs, a CSV file, a database, or any other source.
 
 
