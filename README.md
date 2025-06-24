@@ -1,164 +1,145 @@
+````markdown
 # PDF Table Extraction for Maritime Surveys
 
-**GitHub Repository:**  
-[https://github.com/AbhiramJayasankar/pdf_table_extract](https://github.com/AbhiramJayasankar/pdf_table_extract)
+**GitHub Repository:** [https://github.com/AbhiramJayasankar/pdf_table_extract](https://github.com/AbhiramJayasankar/pdf_table_extract)
 
-This project automates extracting structured data from PDF documents, focusing on "Planned Machinery Survey" sections within maritime survey reports. It uses a multi-step pipeline powered by Google's Gemini AI models to identify relevant pages, extract them as images, and parse tabular data into a structured JSON format.
+This project provides a complete, automated pipeline for extracting structured data from PDF documents, with a specific focus on the "Planned Machinery Survey" sections found in maritime survey reports. The pipeline leverages Google's Gemini AI models to intelligently identify relevant pages, convert them to images, and parse complex tables into a clean, structured JSON format.
 
 ---
 
 ## Table of Contents
 
-- [PDF Table Extraction for Maritime Surveys](#pdf-table-extraction-for-maritime-surveys)
-  - [Table of Contents](#table-of-contents)
-  - [Project Workflow](#project-workflow)
-  - [Directory Structure](#directory-structure)
-  - [Prerequisites](#prerequisites)
-  - [Setup and Configuration](#setup-and-configuration)
-  - [How to Run](#how-to-run)
-  - [Script Descriptions](#script-descriptions)
-  - [Customization](#customization)
+- [Project Workflow](#project-workflow)
+- [Directory Structure](#directory-structure)
+- [Prerequisites](#prerequisites)
+- [Setup and Configuration](#setup-and-configuration)
+- [How to Run the Pipeline](#how-to-run-the-pipeline)
+- [Script and Module Descriptions](#script-and-module-descriptions)
+- [Customization](#customization)
 
 ---
 
 ## Project Workflow
 
-The data extraction process is broken down into three main stages:
+The data extraction process is orchestrated by a single main pipeline script that automates the following stages:
 
-1. **PDF Downloading:**  
-   Start with an Excel file (`NK.xlsx`) containing links to PDF survey reports. The script downloads each PDF.
+1.  **Download PDF from URL:** The pipeline begins with a public URL to a PDF file (e.g., hosted on an S3 bucket). The script downloads the PDF to a local temporary directory.
 
-2. **CSM Page Identification & Extraction:**  
-   Each PDF is processed to identify pages relevant to the "Continuous Machinery Survey" (CSM) using a vision-capable AI model. These pages are saved as PNG images.
+2.  **Identify and Extract CSM Pages:** The downloaded PDF is processed by the `CSMPageExtractor` class, which uses a multimodal AI model (Gemini) to identify all pages belonging to the "Continuous Machinery Survey" (CSM) section. These specific pages are then extracted and saved as high-resolution PNG images.
 
-3. **Structured Data Extraction:**  
-   The PNG images are passed to a Vision Language Model (VLM), which extracts tabular data into clean, organized JSON files.
+3.  **Extract Structured Data from Images:** Each extracted image is passed to a Vision Language Model (VLM). Using a predefined JSON schema, the model accurately extracts the tabular data from the image, converting the rows and columns into structured JSON objects.
 
-**High-level flow diagram:**
+4.  **Aggregate and Save Final JSON:** The JSON data from all processed images is aggregated into a single list and saved to a final JSON file, named after the original PDF.
+
+**High-Level Flow Diagram:**
 
 ```
-[NK.xlsx] 
-   ↓
-download_pdfs.py 
-   ↓
-[PDF Files] 
-   ↓
-save_csm_images.py 
-   ↓
-[PNG Images] 
-   ↓
-extract.py 
-   ↓
-[JSON Data]
+[PDF URL]
+    ↓
+s3_link_to_json_pipeline.py
+    ├─► utils/download_from_s3_util.py  (Downloads PDF)
+    ├─► utils/csm_page_extractor.py     (Identifies and saves CSM pages as images)
+    └─► utils/extract_func.py           (Extracts JSON from each image)
+    ↓
+[Final JSON Output]
 ```
 
 ---
 
 ## Directory Structure
 
-- **csm_module/**: Module for identifying and extracting CSM pages from PDFs.
-- **downloaded_pdfs/**: Output directory for downloaded PDF files. *(Git-ignored)*
-- **images/**: Output directory for extracted PNG page images. *(Git-ignored)*
-- **extracted/**: Output directory for final JSON data. *(Git-ignored)*
-- **schema/**: Defines the JSON schema for data extraction.
-- **.env**: Environment variables file for API keys. *(Must be created)*
-- **download_pdfs.py**: Script to download PDFs from an Excel list.
-- **extract.py**: Script to extract structured data from images.
-- **NK.xlsx**: Input Excel file with links to PDFs. *(Must be provided)*
-- **requirements.txt**: Lists all Python dependencies. *(Should be created)*
-- **save_csm_images.py**: Script to save the identified CSM pages as images.
+Here is the accurate structure of the project:
+
+-   **final_json_output/**: Default output directory for the final aggregated JSON files.
+-   **schema/**: Contains the data structure definitions for the VLM.
+    -   `planned_machinery_survey_schema.py`: Defines the target JSON schema for extracting machinery survey data.
+-   **utils/**: Core utility modules that power the pipeline.
+    -   `csm_page_extractor.py`: Class to find and extract CSM pages from PDFs.
+    -   `download_from_s3_util.py`: Helper function to download files from URLs.
+    -   `extract_func.py`: Function to extract structured data from a single image.
+    -   `save_csm_images.py`: Script to save identified CSM pages as images (can also be run standalone).
+-   **.env**: For storing environment variables like your API key. *(Must be created by the user)*
+-   **.gitignore**: Specifies files and directories to be ignored by Git.
+-   **requirements.txt**: A list of all required Python packages for the project.
+-   **s3_link_to_json_pipeline.py**: The main script that orchestrates the entire workflow from URL to final JSON.
 
 ---
 
 ## Prerequisites
 
-Ensure you have the following installed:
+Before you begin, ensure you have the following installed:
 
-- **Python 3.8+**
-- **Pip** (Python package installer)
-- **Poppler** (for PDF handling):
-  - **macOS:** `brew install poppler`
-  - **Windows:** Download from the official website and add the `bin/` directory to your PATH.
-  - **Linux (Debian/Ubuntu):** `sudo apt-get install poppler-utils`
+-   **Python 3.8+**
+-   **Pip** (Python's package installer)
+-   **Poppler**: A PDF rendering library required for `pdf2image`.
+    -   **macOS (via Homebrew):** `brew install poppler`
+    -   **Windows:** Download the latest version, extract it, and add the `bin/` directory to your system's PATH.
+    -   **Linux (Debian/Ubuntu):** `sudo apt-get update && sudo apt-get install -y poppler-utils`
 
 ---
 
 ## Setup and Configuration
 
-1. **Clone the Repository:**
+1.  **Clone the Repository:**
     ```sh
-    git clone https://github.com/AbhiramJayasankar/pdf_table_extract.git
+    git clone [https://github.com/AbhiramJayasankar/pdf_table_extract.git](https://github.com/AbhiramJayasankar/pdf_table_extract.git)
     cd pdf_table_extract
     ```
 
-2. **Create a `requirements.txt` File:**  
-   Add the following dependencies:
-    ```
-    pandas
-    openpyxl
-    requests
-    pdf2image
-    google-generativeai
-    Pillow
-    python-dotenv
-    contextgem
-    ```
-
-3. **Install Dependencies:**
+2.  **Install Dependencies:**
+    Install all the required packages using the `requirements.txt` file.
     ```sh
     pip install -r requirements.txt
     ```
 
-4. **Set Up Environment Variables:**  
-   Create a `.env` file in the root directory:
+3.  **Set Up Environment Variables:**
+    Create a file named `.env` in the root directory of the project and add your Google AI API key:
     ```
-    GOOGLE_API_KEY_2="your_google_api_key_here"
+    GOOGLE_API_KEY="your_google_api_key_here"
     ```
-
-5. **Prepare Input File:**  
-   Place your Excel file named `NK.xlsx` in the root directory. It must contain two columns: `vesselName` and `linkForSyia`.
 
 ---
 
-## How to Run
+## How to Run the Pipeline
 
-Execute the scripts sequentially after setup:
+The entire process is managed by the `s3_link_to_json_pipeline.py` script.
 
-**Step 1: Download the PDFs**
-```sh
-python download_pdfs.py
-```
-This populates the `downloaded_pdfs/` directory.
+1.  **Configure the Script:**
+    Open `s3_link_to_json_pipeline.py` and modify the variables in the `if __name__ == '__main__':` block:
+    -   `url_to_process`: Set this to the public URL of the PDF you want to process.
+    -   `output_directory`: (Optional) Change the directory where the final JSON file will be saved. The default is `final_json_output`.
 
-**Step 2: Identify and Save CSM Pages as Images**
-```sh
-python save_csm_images.py
-```
-This saves relevant pages as PNGs in the `images/` directory.
+2.  **Execute the Pipeline:**
+    Run the script from your terminal:
+    ```sh
+    python s3_link_to_json_pipeline.py
+    ```
 
-**Step 3: Extract Structured Data to JSON**
-```sh
-python extract.py
-```
-This saves the extracted data as JSON files in the `extracted/` directory.
+The script will log its progress in the console, from downloading the PDF to saving the final JSON file.
 
 ---
 
-## Script Descriptions
+## Script and Module Descriptions
 
-- **download_pdfs.py:** Reads `NK.xlsx`, downloads PDFs from URLs, and saves them using sanitized vessel names.
-- **csm_module/code.py:** The core AI module. `CSMPageExtractor` uses the Gemini model to identify pages belonging to the 'Planned Machinery Survey' section.
-- **save_csm_images.py:** Uses `CSMPageExtractor` to process all downloaded PDFs and save relevant pages as images.
-- **schema/bao_min.py:** Defines the target data structure for the VLM, instructing it how to parse tables and format the JSON output.
-- **extract.py:** Sends images and schema to the Gemini VLM and saves the structured output as JSON.
+-   **s3_link_to_json_pipeline.py**: This is the main entry point for the project. It orchestrates the entire workflow by calling the necessary utility functions in sequence: downloading the source PDF, extracting the relevant pages as images, processing each image to get structured data, and saving the final result.
+
+-   **utils/download_from_s3_util.py**: A utility function, `download_files_from_urls`, that takes a list of URLs and an output directory, and robustly downloads the files. It handles potential request errors.
+
+-   **utils/csm_page_extractor.py**: Contains the `CSMPageExtractor` class, the core component for page identification. It converts a PDF to images, adds page numbers for clarity, and then uses the Gemini vision model to identify and return the page numbers of the "Planned Machinery Survey" section.
+
+-   **utils/extract_func.py**: Provides the `extract_json_from_image` function, which takes a single image path and uses the Gemini VLM along with a predefined schema to extract structured data into a Python dictionary.
+
+-   **schema/planned_machinery_survey_schema.py**: Defines the exact data structure (`JsonObjectConcept`) that the VLM should follow when extracting information from the images. This ensures the output is consistent, clean, and well-organized.
 
 ---
 
 ## Customization
 
-- **Different Data Structures:**  
-  Modify the schema in `schema/bao_min.py` to change the extracted fields and JSON structure.
-- **Different Document Types:**  
-  Update the prompt in the `identify_csm_pages` method in `csm_module/code.py` to look for different keywords or page titles.
-- **Different Input Sources:**  
-  Modify `download_pdfs.py` to read from a different source like a CSV file, database, or API.
+This pipeline is highly customizable for different document types and data structures.
+
+-   **Different Data Structures:** To extract different fields or change the final JSON organization, simply modify the `structure` dictionary within the `planned_machinery_survey_concept` in `schema/planned_machinery_survey_schema.py`.
+
+-   **Different Document Types:** If you need to identify different sections in your PDFs (e.g., "Safety Certificates" instead of "Planned Machinery Survey"), update the prompt in the `identify_csm_pages` method within the `utils/csm_page_extractor.py` file to include the new keywords and titles to look for.
+
+-   **Different Input Sources:** The main pipeline currently takes a single URL. You can easily modify the `if __name__ == '__main__':` block in `s3_link_to_json_pipeline.py` to read from a list of URLs, a CSV file, a database, or any other source.
+````
